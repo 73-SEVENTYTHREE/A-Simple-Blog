@@ -6,11 +6,11 @@
 
    * `article`
 
-     ![image-20201224002448322](C:\Users\25695\AppData\Roaming\Typora\typora-user-images\image-20201224002448322.png)
+     ![article](https://github.com/73-SEVENTYTHREE/A-Simple-Blog/blob/main/assets/article.jpg)
 
    * `user`
 
-     ![image-20201224002510813](C:\Users\25695\AppData\Roaming\Typora\typora-user-images\image-20201224002510813.png)
+     ![user](https://github.com/73-SEVENTYTHREE/A-Simple-Blog/blob/main/assets/user.jpg)
 
 3. 由于时间关系，点赞删除等功能并未完全完善，请不要介意。
 
