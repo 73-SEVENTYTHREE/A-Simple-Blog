@@ -1,0 +1,90 @@
+.bg-bubbles {
+	position: absolute;
+	top: 0;
+	left: -50px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.bg-bubbles li {
+	opacity: 0;
+	position: absolute;
+	list-style: none;
+	display: block;
+	width: 35px;
+	height: 40px;
+	background-color: rgba(19, 36, 172, 0.15);
+	bottom: -200px;
+	animation: square 25s infinite;
+	transition-timing-function: linear;
+}
+.bg-bubbles li:nth-child(1) {
+	left: 10%
+}
+.bg-bubbles li:nth-child(2) {
+	right: 20%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 200ms;
+	animation-duration: 17s
+}
+.bg-bubbles li:nth-child(3) {
+	right:10%;
+	animation-delay: 400ms;
+}
+.bg-bubbles li:nth-child(4) {
+	left: 2%;
+	width: 60px;
+	height: 60px;
+	animation-duration: 10s;
+	background-color: rgba(225, 23, 221, 0.25)
+}
+.bg-bubbles li:nth-child(5) {
+	right: 13%
+}
+.bg-bubbles li:nth-child(6) {
+	right: 80px;
+	width: 120px;
+	height: 120px;
+	animation-delay: 3s;
+	background-color: rgba(6, 241, 40, 0.20)
+}
+.bg-bubbles li:nth-child(7) {
+	right: 15%;
+	width: 90px;
+	height: 90px;
+	animation-delay: 11s
+}
+.bg-bubbles li:nth-child(8) {
+	left: 13%;
+	width: 20px;
+	height: 20px;
+	animation-delay: 15s;
+	animation-duration: 40s
+}
+.bg-bubbles li:nth-child(9) {
+	right: 15%;
+	width: 10px;
+	height: 10px;
+	animation-delay: 2s;
+	animation-duration: 40s;
+	background-color: rgba(53, 239, 222, 0.30)
+}
+@keyframes square {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+	10% {
+		opacity: 0.8;
+		transform: translateY(-70px) rotate(600deg);
+	}
+	90% {
+		opacity: 1;
+		transform: translateY(-880px) rotate(1200deg);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-880px) rotate(1200deg);
+	}
+}

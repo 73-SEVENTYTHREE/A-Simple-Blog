@@ -1,0 +1,30 @@
+.main_left{
+	float: left;
+	width: 210px;
+}
+.main_left h2 {
+	color: #5A5A43;
+	font: bold 1.1em Tahoma,sans-serif;
+	margin-top:10px;
+	padding-left: 12px;
+}
+.main_left ul {
+	padding: 0;
+	border-top: 1px solid #EAEADA;
+}
+li {list-style: none;}
+.main_left li {
+	border-bottom: 1px solid #EAEADA;
+}
+.main_left li a {
+	font-size:1.1em;
+	color: #554;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+.main_left li a:hover {
+	background: #FCFCEB;
+	color: #654;	
+}

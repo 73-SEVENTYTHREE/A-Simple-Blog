@@ -1,0 +1,117 @@
+	*{	text-decoration: none;
+		list-style: none;
+		word-break: break-all;
+	}
+	body{
+		background-image: url("../pictures/blog_background.jpg");
+		color:#7a1b47;
+	    background-size: cover;
+	}
+	.user_info{
+		height: 80px;
+		width: 960px;
+		margin: 0 auto;
+	}
+	.user_info img{
+		height: 70px;
+		word-break: 70px;
+		float:left;
+		margin-top:10px;
+		border:solid 1px black ;
+		border-radius: 35px;
+		display: block;
+	}
+	.user_info span{
+		float:left;
+		margin-left:30px;
+		margin-top:25px;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+	.format{
+		height:800px; 
+		width:960px;
+		margin: 0 auto;
+	}
+
+	#txtTitle{
+		height: 25px;
+		width: 950px;
+		padding: 5px;
+		font-size: 23px;
+		opacity:0.65;
+		font-weight: bolder;
+		box-shadow:inset 2px 2px 2px  rgba(122, 27, 117, 0.8), inset -2px -2px 2px rgba(122, 27, 117, 0.8), 2px 2px 2px rgba(122, 27, 117, 0.8), -2px -2px 2px rgba(122, 27, 117, 0.8);
+	}
+	#editor{
+		font-size: 17px;
+		padding: 20px;
+		border: solid 0px;
+		opacity:0.7;
+		box-shadow:inset 5px 5px 5px rgba(134, 27, 99, 0.8), inset -5px -5px 5px rgba(134, 27, 99, 0.8), 5px 5px 5px rgba(134, 27, 99, 0.8), -5px -5px 5px rgba(134, 27, 99, 0.8);
+	}
+	.format ul{
+		background-color: #8ae9e1;
+		height: 40px;
+		border-bottom: 1px solid #58c242;
+		padding-left: 0;
+	}
+	.format li{
+		display: inline-block;
+		height: 26px;
+		float: left;
+		margin:0 0 0 0px;
+		padding:7px 20px;
+		font-size: 24px;
+		font-weight: bolder;
+		font-family: KaiTi;
+		
+	}
+	li a{
+		color: #58c242;
+	}
+	li:hover a{
+		color: #fff;
+	}
+	li:hover{
+		background-color: #58c242;
+	}
+	.format p{
+		color:#7a1b47;
+		border-bottom:solid 1px #7a1b47;
+		font-weight: bolder;
+		margin: 6px 0;
+		padding: 12px 4px 2px 4px;
+	}
+	.format #editor{
+		margin-bottom: 20px; 
+	}
+	.btn_area{
+		text-align: center;
+		margin: 20px;
+	}
+	.btn{
+		background-color: #7a1b47;
+		margin: 0 20px 40px;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 20px;
+		cursor: pointer;
+		text-align: center;   
+		outline: none;
+		color: #7a1b47;
+		background-color: rgb(196, 169, 190);
+		border: none;
+		border-radius: 50%;
+		box-shadow: 0 9px 18px #7a1b47;
+	}
+	.btn:hover {background-color: #97cae7}
+	.btn:active {
+	  background-color: #97cae7;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+	}
+	#fileupload{
+		width: 500px;
+		margin: 10px;
+	}

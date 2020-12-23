@@ -1,0 +1,15 @@
+.foot {
+	background: #949490;
+	color: #949490;
+	font: bold 1em sans-serif;
+	margin-top: 5px;
+	padding: 10px 12px;
+}
+.foot a {
+	color: #949490;
+	text-decoration: none;
+}
+.foot a:hover {color: #FFC;}
+.foot_right{float:right;}
+.foot_right,.foot_right a {color: #949490;}
+.foot_right a:hover {color: #F7F7F2;}

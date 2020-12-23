@@ -1,0 +1,26 @@
+.modify_name{
+	text-align:center;
+	margin:100px;
+	font-size:18px;
+}
+.modify_name [name="save"]{
+	float:left;
+	margin-left:134px
+}
+.modify_name [name="quit"]{
+	margin-right:32px;
+	float:right;
+}
+.modify_img{
+	text-align:center;
+	margin:100px;
+	font-size:18px;
+	text-align:left;
+}
+.modify_img [name="save"]{
+	float:left;
+}
+.modify_img [name="quit"]{
+	float:left;
+	margin-left:80px;
+}
